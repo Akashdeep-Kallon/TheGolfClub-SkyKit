@@ -1,0 +1,23 @@
+{
+  "name": "com.paintedsky.core",
+  "displayName": "Painted Sky (Day/Night + Volumetric Clouds)",
+  "version": "1.0.0",
+  "unity": "6000.0",
+  "description": "Stylized (Ghibli-like) day/night cycle with a hand-painted palette, painted sky dome with sun, moon and stars, and volumetric clouds (UnityVolumetricCloudsURP) with a painted lighting mode and cloud shadows. URP only.",
+  "keywords": [
+    "sky",
+    "day night",
+    "time of day",
+    "clouds",
+    "volumetric",
+    "stylized",
+    "ghibli",
+    "urp"
+  ],
+  "dependencies": {
+    "com.unity.render-pipelines.universal": "17.0.0"
+  },
+  "author": {
+    "name": "THE GOLF CLUB"
+  }
+}
