@@ -17,9 +17,11 @@ Stylized, Ghibli-like sky for Unity 6 + URP 17:
 
 Requirements: Unity 6000.0+, URP 17 (Render Graph), HDR on in the URP asset.
 
-1. Copy the `com.paintedsky.core` folder into the project's `Packages/` folder (embedded package), **or** add it
-   to `Packages/manifest.json` from a shared location:
-   `"com.paintedsky.core": "file:C:/path/to/com.paintedsky.core"` (or a git URL once it has its own repository).
+1. Add it to the project's `Packages/manifest.json` from git (Package Manager ▸ + ▸ Add package from git URL
+   works too):
+   `"com.paintedsky.core": "https://github.com/Akashdeep-Kallon/TheGolfClub-SkyKit.git"`
+   (append `#<commit or tag>` to pin a version). To edit it inside a project, clone this repository into that
+   project's `Packages/com.paintedsky.core` folder instead (embedded package).
 2. **Tools ▸ Painted Sky ▸ Add Painted Sky To Main Camera**. It adds `DayNightCycle`, `SkyDome` and
    `PaintedClouds` to the main (or selected) camera and installs the clouds renderer feature in every URP
    renderer of the project (**Tools ▸ Painted Sky ▸ Install Clouds Renderer Feature** does only that part).
